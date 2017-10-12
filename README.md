@@ -9,7 +9,7 @@ and after each state any one can process the stuff like DB management.
 
 TO-DO: This system is in baby phase, unit test-cases need to write. Also has to make it thread safe also.
 
-=====================================Example Transaction System================================
+=======Example Transaction System==============
 
 Implement a program that permits definition, creation and execution of finite state machine. 
 
