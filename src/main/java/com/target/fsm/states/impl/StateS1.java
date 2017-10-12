@@ -51,6 +51,8 @@ public class StateS1 implements State {
 			throw new IllegalEventInputException();
 		} else if (input.startsWith("s")) {
 			throw new IllegalStateInputException();
+		} else if (input.startsWith("b")) {
+			throw new IllegalEventInputException();
 		}
 		return false;
 	}
